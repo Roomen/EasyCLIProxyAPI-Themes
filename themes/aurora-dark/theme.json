@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "aurora-dark-2",
+  "name": {
+    "zh-CN": "霁光·星夜 2",
+    "zh-TW": "霽光·星夜 2",
+    "en": "Aurora Nightfall 2",
+    "ja": "オーロラ・夜 2"
+  },
+  "description": {
+    "zh-CN": "通透液态玻璃，墨蓝底色与极光蓝紫青；不支持时使用极光渐变",
+    "zh-TW": "通透液態玻璃，墨藍底色與極光藍紫青；不支援時使用極光漸層",
+    "en": "Clear Liquid Glass, ink blue with aurora blue, violet, teal; gradient fallback",
+    "ja": "透明感のあるリキッドグラスとインクブルー、オーロラの青・紫・青緑。非対応環境ではグラデーション"
+  },
+  "appearance": "dark",
+  "windowBackground": "#0F1729",
+  "windowMaterial": "translucent",
+  "backdrop": {
+    "layers": [
+      {
+        "kind": "radial",
+        "center": [
+          8,
+          0
+        ],
+        "size": [
+          70,
+          80
+        ],
+        "stops": [
+          {
+            "color": "#4F86F038",
+            "at": 0
+          },
+          {
+            "color": "#4F86F01A",
+            "at": 55
+          },
+          {
+            "color": "#4F86F000",
+            "at": 100
+          }
+        ]
+      },
+      {
+        "kind": "radial",
+        "center": [
+          92,
+          8
+        ],
+        "size": [
+          55,
+          60
+        ],
+        "stops": [
+          {
+            "color": "#36B6C81F",
+            "at": 0
+          },
+          {
+            "color": "#36B6C800",
+            "at": 100
+          }
+        ]
+      },
+      {
+        "kind": "radial",
+        "center": [
+          100,
+          100
+        ],
+        "size": [
+          80,
+          85
+        ],
+        "stops": [
+          {
+            "color": "#A66CD436",
+            "at": 0
+          },
+          {
+            "color": "#A66CD414",
+            "at": 55
+          },
+          {
+            "color": "#A66CD400",
+            "at": 100
+          }
+        ]
+      },
+      {
+        "kind": "linear",
+        "angle": 135,
+        "stops": [
+          {
+            "color": "#0D1527",
+            "at": 0
+          },
+          {
+            "color": "#131D38",
+            "at": 50
+          },
+          {
+            "color": "#1B1D3A",
+            "at": 100
+          }
+        ]
+      }
+    ],
+    "sidebar": "#10122C6B",
+    "panel": "#1A2946A3",
+    "inset": "#24396E99",
+    "hover": "#3A568685"
+  },
+  "tokens": {
+    "workspaceBackground": "#0F1729",
+    "surface": "#1A2946",
+    "softSurface": "#22344F",
+    "hoverBackground": "#2C4266",
+    "textPrimary": "#EEF3FF",
+    "textSecondary": "#CAD6EE",
+    "textTertiary": "#BFCEE9",
+    "textMuted": "#B5C6E4",
+    "border": "#C6D7FF2E",
+    "borderSubtle": "#C6D7FF1A",
+    "borderStrong": "#5C78A8",
+    "borderHover": "#93B4F2",
+    "panelShadow": "#02061440",
+    "accent": "#AECAFF",
+    "accentStrong": "#CBDCFF",
+    "accentSoft": "#2A4170",
+    "accentContrast": "#0F1A31",
+    "accentShadow": "#0006184D",
+    "focusRing": "#B6CEFF",
+    "primaryButtonBackground": "#3559A0",
+    "primaryButtonHoverBackground": "#4068B5",
+    "primaryButtonText": "#F2F6FF",
+    "primaryButtonBorder": "#6990D6",
+    "primaryButtonHoverBorder": "#9CBBF2",
+    "controlActiveBackground": "#8FB3FF",
+    "controlActiveThumb": "#0F1A31",
+    "controlThumb": "#DCE7FB",
+    "sidebarBackground": "#151839",
+    "sidebarText": "#C3D3EF",
+    "sidebarTextStrong": "#F2F6FF",
+    "sidebarTextMuted": "#B6C7E5",
+    "sidebarBorder": "#C6D7FF24",
+    "sidebarHover": "#BBCEFF1A",
+    "sidebarSelected": "#A9C2FF2E",
+    "sidebarSelectedBorder": "#C3D6FF4D",
+    "sidebarSelectedShadow": "#00061838",
+    "popoverBackground": "#1B2945",
+    "overlaySoftSurface": "#253857",
+    "overlayHoverBackground": "#2F4769",
+    "scrim": "#030812B3",
+    "radiusSmall": "7px",
+    "radiusMedium": "12px",
+    "radiusLarge": "18px",
+    "radiusFull": "9999px",
+    "controlBorderWidth": "1px",
+    "cardBorderWidth": "1px",
+    "shadowExtraSmall": "0 1px 2px #0206142E",
+    "shadowSmall": "0 2px 8px #0206143D",
+    "shadowMedium": "0 8px 24px #0206144D",
+    "shadowLarge": "0 14px 40px #0206145C",
+    "shadowPopover": "0 16px 44px #02061480",
+    "shadowDialog": "0 28px 80px #020614A6",
+    "shadowSpotlight": "0 18px 52px #02061473",
+    "windowMaterialWorkspaceOpacity": "63%",
+    "windowMaterialSidebarOpacity": "30%",
+    "meterLow": "#FF95AE",
+    "meterMedium": "#F0C77C",
+    "meterHigh": "#83DCC3"
+  }
+}

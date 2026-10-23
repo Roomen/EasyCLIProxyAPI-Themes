@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "id": "meili-golden-hour",
+  "name": {
+    "zh-CN": "梅里·日照金山",
+    "zh-TW": "梅里·日照金山",
+    "en": "Meili Golden Hour",
+    "ja": "梅里・黄金の朝"
+  },
+  "description": {
+    "zh-CN": "日照雪峰、蓝灰天幕与暖金点缀",
+    "zh-TW": "日照雪峰、藍灰天幕與暖金點綴",
+    "en": "Sunlit snow peaks, slate-blue skies and warm gold accents",
+    "ja": "朝日に染まる雪峰、青灰色の空と暖かな金色"
+  },
+  "appearance": "dark",
+  "windowBackground": "#142130",
+  "windowMaterial": "solid",
+  "backdrop": {
+    "layers": [
+      {
+        "kind": "linear",
+        "angle": 180,
+        "stops": [
+          {
+            "color": "#101E304D",
+            "at": 0
+          },
+          {
+            "color": "#0C17265C",
+            "at": 50
+          },
+          {
+            "color": "#08132199",
+            "at": 100
+          }
+        ]
+      }
+    ],
+    "sidebar": "#101D2CD6",
+    "panel": "#162638D9",
+    "inset": "#1A2C40E6",
+    "hover": "#35485CE6",
+    "imagePosition": [
+      50,
+      25
+    ]
+  },
+  "tokens": {
+    "workspaceBackground": "#142130",
+    "surface": "#1B2C40",
+    "softSurface": "#24384E",
+    "hoverBackground": "#35495E",
+    "textPrimary": "#F5F1EA",
+    "textSecondary": "#DFE4EB",
+    "textTertiary": "#CDD6E1",
+    "textMuted": "#C1CEDD",
+    "border": "#C2D2E638",
+    "borderSubtle": "#C2D2E624",
+    "borderStrong": "#657C94",
+    "borderHover": "#D9AA76",
+    "panelShadow": "#04091838",
+    "accent": "#F4C28F",
+    "accentStrong": "#FFD8AD",
+    "accentSoft": "#4A382D",
+    "accentContrast": "#251A12",
+    "accentShadow": "#ECAF672E",
+    "focusRing": "#FFD09D",
+    "primaryButtonBackground": "#F4C28F",
+    "primaryButtonHoverBackground": "#FFD8AD",
+    "primaryButtonText": "#251A12",
+    "primaryButtonBorder": "#F4C28F",
+    "primaryButtonHoverBorder": "#FFE5C9",
+    "controlActiveBackground": "#EABB87",
+    "controlActiveThumb": "#251A12",
+    "controlThumb": "#E9EFF6",
+    "sidebarBackground": "#142231",
+    "sidebarText": "#D7E0EB",
+    "sidebarTextStrong": "#F5F1EA",
+    "sidebarTextMuted": "#C1CEDD",
+    "sidebarBorder": "#B8CDE52E",
+    "sidebarHover": "#D6E3F014",
+    "sidebarSelected": "#E8B68124",
+    "sidebarSelectedBorder": "#E8B68147",
+    "sidebarSelectedShadow": "#00000026",
+    "popoverBackground": "#1C2D40",
+    "overlaySoftSurface": "#263C52",
+    "overlayHoverBackground": "#344D65",
+    "scrim": "#060D18B3",
+    "radiusSmall": "6px",
+    "radiusMedium": "12px",
+    "radiusLarge": "18px",
+    "radiusFull": "9999px",
+    "controlBorderWidth": "1px",
+    "cardBorderWidth": "1px",
+    "shadowExtraSmall": "0 1px 2px #02061424",
+    "shadowSmall": "0 2px 8px #02061433",
+    "shadowMedium": "0 6px 20px #02061440",
+    "shadowLarge": "0 12px 36px #02061452",
+    "shadowPopover": "0 14px 40px #02061473",
+    "shadowDialog": "0 24px 72px #02061499",
+    "shadowSpotlight": "0 16px 48px #02061466",
+    "meterLow": "#F09391",
+    "meterMedium": "#EBC17D",
+    "meterHigh": "#89CDB8"
+  },
+  "assets": {
+    "backdropImage": "assets/meili.jpg"
+  }
+}

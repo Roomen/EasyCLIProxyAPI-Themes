@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "aurora-light-2",
+  "name": {
+    "zh-CN": "霁光·晨曦 2",
+    "zh-TW": "霽光·晨曦 2",
+    "en": "Aurora Daylight 2",
+    "ja": "オーロラ・朝 2"
+  },
+  "description": {
+    "zh-CN": "通透液态玻璃，冰蓝、淡紫与蜜桃晨光；不支持时使用极光渐变",
+    "zh-TW": "通透液態玻璃，冰藍、淡紫與蜜桃晨光；不支援時使用極光漸層",
+    "en": "Clear Liquid Glass with icy blue, lilac and peach light; gradient fallback",
+    "ja": "透明感のあるリキッドグラスとアイスブルー・藤色・ピーチ。非対応環境ではグラデーション"
+  },
+  "appearance": "light",
+  "windowBackground": "#F0F3FD",
+  "windowMaterial": "translucent",
+  "backdrop": {
+    "layers": [
+      {
+        "kind": "radial",
+        "center": [
+          6,
+          0
+        ],
+        "size": [
+          70,
+          85
+        ],
+        "stops": [
+          {
+            "color": "#8DB0FF4D",
+            "at": 0
+          },
+          {
+            "color": "#8DB0FF24",
+            "at": 55
+          },
+          {
+            "color": "#8DB0FF00",
+            "at": 100
+          }
+        ]
+      },
+      {
+        "kind": "radial",
+        "center": [
+          94,
+          6
+        ],
+        "size": [
+          55,
+          60
+        ],
+        "stops": [
+          {
+            "color": "#C7A9FF33",
+            "at": 0
+          },
+          {
+            "color": "#C7A9FF00",
+            "at": 100
+          }
+        ]
+      },
+      {
+        "kind": "radial",
+        "center": [
+          100,
+          100
+        ],
+        "size": [
+          80,
+          85
+        ],
+        "stops": [
+          {
+            "color": "#FFB9A64D",
+            "at": 0
+          },
+          {
+            "color": "#FFB9A61F",
+            "at": 55
+          },
+          {
+            "color": "#FFB9A600",
+            "at": 100
+          }
+        ]
+      },
+      {
+        "kind": "linear",
+        "angle": 135,
+        "stops": [
+          {
+            "color": "#EDF2FF",
+            "at": 0
+          },
+          {
+            "color": "#F3F0FD",
+            "at": 50
+          },
+          {
+            "color": "#FCF6F4",
+            "at": 100
+          }
+        ]
+      }
+    ],
+    "sidebar": "#E2E5FF59",
+    "panel": "#FCFDFFA6",
+    "inset": "#E8F0FFB3",
+    "hover": "#E3ECFFCC"
+  },
+  "tokens": {
+    "workspaceBackground": "#F0F3FD",
+    "surface": "#FFFFFF",
+    "softSurface": "#F3F6FD",
+    "hoverBackground": "#E6EEFC",
+    "textPrimary": "#152039",
+    "textSecondary": "#36496B",
+    "textTertiary": "#3C5073",
+    "textMuted": "#3F5276",
+    "border": "#7B93C23D",
+    "borderSubtle": "#7B93C224",
+    "borderStrong": "#A6B8DB",
+    "borderHover": "#6D94DE",
+    "panelShadow": "#34509A14",
+    "accent": "#1A4AB8",
+    "accentStrong": "#1640A4",
+    "accentSoft": "#E6EEFF",
+    "accentContrast": "#FFFFFF",
+    "accentShadow": "#4B71D42E",
+    "focusRing": "#2F66DD",
+    "primaryButtonBackground": "#2457CB",
+    "primaryButtonHoverBackground": "#1C4BB5",
+    "primaryButtonText": "#FFFFFF",
+    "primaryButtonBorder": "#1F4FBD",
+    "primaryButtonHoverBorder": "#16419F",
+    "controlActiveBackground": "#2457CB",
+    "controlActiveThumb": "#FFFFFF",
+    "controlThumb": "#FFFFFF",
+    "sidebarBackground": "#E2E4FF",
+    "sidebarText": "#33476B",
+    "sidebarTextStrong": "#152039",
+    "sidebarTextMuted": "#42567A",
+    "sidebarBorder": "#FFFFFF80",
+    "sidebarHover": "#FFFFFF66",
+    "sidebarSelected": "#FFFFFFC7",
+    "sidebarSelectedBorder": "#FFFFFFF0",
+    "sidebarSelectedShadow": "#4664AF1F",
+    "popoverBackground": "#F9FBFF",
+    "overlaySoftSurface": "#EEF3FC",
+    "overlayHoverBackground": "#E5EDFD",
+    "scrim": "#1E2F555C",
+    "radiusSmall": "7px",
+    "radiusMedium": "12px",
+    "radiusLarge": "18px",
+    "radiusFull": "9999px",
+    "controlBorderWidth": "1px",
+    "cardBorderWidth": "1px",
+    "shadowExtraSmall": "0 1px 2px #304D8B0F",
+    "shadowSmall": "0 2px 8px #304D8B14",
+    "shadowMedium": "0 6px 20px #304D8B1A",
+    "shadowLarge": "0 12px 34px #304D8B21",
+    "shadowPopover": "0 12px 36px #223C742E",
+    "shadowDialog": "0 24px 70px #223C743D",
+    "shadowSpotlight": "0 18px 52px #304D8B2E",
+    "windowMaterialWorkspaceOpacity": "71%",
+    "windowMaterialSidebarOpacity": "35%",
+    "meterLow": "#BC4564",
+    "meterMedium": "#906016",
+    "meterHigh": "#207B69"
+  }
+}
