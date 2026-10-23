@@ -1,4 +1,4 @@
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [English](README.en.md)
+**简体中文** | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [English](README.en.md)
 
 # EasyCLIProxyAPI Themes
 
@@ -19,7 +19,7 @@ EasyCLIProxyAPI 自定义主题合集。当前发布版本：**1.0.1**。
 3. 解压 ZIP，将所需主题文件夹直接放入该目录，保持 `<主题目录>/<主题文件夹>/theme.json` 的结构。
 4. 返回应用，点击「重新加载」，选择「自定义主题」并启用主题。
 
-也可从本仓库 `themes/` 复制主题文件夹。不要只复制 JSON；梅里主题需要一起复制 `assets/meili.jpg`。应用不直接读取 ZIP 文件。
+也可从本仓库根目录复制所需主题文件夹。不要只复制 JSON；梅里主题需要一起复制 `assets/meili.jpg`。应用不直接读取 ZIP 文件。
 
 Aurora 与经典 macOS 主题请求原生透明材质，不支持的平台使用回退效果。梅里主题需要支持自定义主题背景图片的应用构建；背景图片按窗口比例裁剪。
 

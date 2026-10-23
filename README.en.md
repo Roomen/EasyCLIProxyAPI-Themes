@@ -1,4 +1,4 @@
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [English](README.en.md)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | **English**
 
 # EasyCLIProxyAPI Themes
 
@@ -19,7 +19,7 @@ A collection of custom themes for EasyCLIProxyAPI. Current release: **1.0.1**.
 3. Extract the ZIP and place the desired theme folders directly in that directory. Keep the structure `<themes directory>/<theme folder>/theme.json`.
 4. Return to the app, click **Reload**, and select and enable a theme under **Custom themes**.
 
-You can also copy theme folders from this repository's `themes/` directory. Copy the entire folder, including its assets; Meili Golden Hour also requires `assets/meili.jpg`. The app does not read ZIP files directly.
+You can also copy the desired theme folders from this repository's root directory. Copy the entire folder, including its assets; Meili Golden Hour also requires `assets/meili.jpg`. The app does not read ZIP files directly.
 
 Aurora and Classic macOS themes request native translucent materials, with fallback effects on unsupported platforms. Meili Golden Hour requires an app build with custom theme background-image support. The background image is cropped to fit the window's aspect ratio.
 
