@@ -1,3 +1,5 @@
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [日本語](README.ja.md) | [English](README.en.md)
+
 # EasyCLIProxyAPI Themes
 
 EasyCLIProxyAPI 自定义主题合集。当前发布版本：**1.0.1**。
@@ -25,8 +27,3 @@ Aurora 与经典 macOS 主题请求原生透明材质，不支持的平台使用
 
 版本通过 Git tag 和 Release 管理。`theme.json` 保持标准 JSON，不添加注释或额外版本字段。源码仓库保存主题文件，压缩包仅作为 Release 附件发布；`SHA256SUMS.txt` 用于核对下载文件。
 
-## Installation (English)
-
-Download a theme ZIP or the full collection from Releases. Extract it and copy each desired theme folder into the app's themes directory (Appearance → Open themes folder). Keep `theme.json` inside its own folder, along with any assets. Click Reload and select a custom theme. ZIP files are not loaded directly.
-
-Meili Golden Hour requires an app build with custom theme background-image support. Theme versions are tracked by release tags; the JSON files remain unchanged.
