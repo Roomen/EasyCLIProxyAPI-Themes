@@ -2,7 +2,7 @@
 
 # EasyCLIProxyAPI Themes
 
-EasyCLIProxyAPI のカスタムテーマ集です。現在のリリースバージョン：**1.0.1**。
+EasyCLIProxyAPI のカスタムテーマ集です。[Latest Release](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest) から最新バージョンを入手できます。
 
 | ディレクトリ | テーマ | モード |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ EasyCLIProxyAPI のカスタムテーマ集です。現在のリリースバー�
 
 ## インストール
 
-1. [Releases](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest) から個別テーマの ZIP、または全テーマをまとめた `EasyCLIProxyAPI-Themes-v1.0.1.zip` をダウンロードします。
+1. [Releases 最新リリース](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest) から個別テーマの ZIP、または [全テーマ合集 ZIP (EasyCLIProxyAPI-Themes.zip)](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest/download/EasyCLIProxyAPI-Themes.zip) をダウンロードします。
 2. EasyCLIProxyAPI で「外観」→「テーマフォルダーを開く」を選択します。
 3. ZIP を展開し、必要なテーマフォルダーをそのディレクトリに直接配置します。`<テーマディレクトリ>/<テーマフォルダー>/theme.json` の構造を維持してください。
 4. アプリに戻り、「再読み込み」をクリックして「カスタムテーマ」からテーマを選択し、有効にします。

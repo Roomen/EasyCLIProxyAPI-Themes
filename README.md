@@ -2,7 +2,7 @@
 
 # EasyCLIProxyAPI Themes
 
-EasyCLIProxyAPI 自定义主题合集。当前发布版本：**1.0.1**。
+EasyCLIProxyAPI 自定义主题合集。可通过 [Latest Release](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest) 获取最新版本。
 
 | 目录 | 主题 | 模式 |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ EasyCLIProxyAPI 自定义主题合集。当前发布版本：**1.0.1**。
 
 ## 安装
 
-1. 在 [Releases](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest) 下载单主题 ZIP，或下载 `EasyCLIProxyAPI-Themes-v1.0.1.zip` 合集。
+1. 在 [Releases 最新发布页](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest) 下载单主题 ZIP，或直接下载 [全主题合集 ZIP (EasyCLIProxyAPI-Themes.zip)](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest/download/EasyCLIProxyAPI-Themes.zip)。
 2. 在 EasyCLIProxyAPI 中打开「外观」→「打开主题目录」。
 3. 解压 ZIP，将所需主题文件夹直接放入该目录，保持 `<主题目录>/<主题文件夹>/theme.json` 的结构。
 4. 返回应用，点击「重新加载」，选择「自定义主题」并启用主题。

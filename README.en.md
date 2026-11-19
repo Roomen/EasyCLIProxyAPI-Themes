@@ -2,7 +2,7 @@
 
 # EasyCLIProxyAPI Themes
 
-A collection of custom themes for EasyCLIProxyAPI. Current release: **1.0.1**.
+A collection of custom themes for EasyCLIProxyAPI. Always get the latest release from [Latest Release](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest).
 
 | Directory | Theme | Appearance |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ A collection of custom themes for EasyCLIProxyAPI. Current release: **1.0.1**.
 
 ## Installation
 
-1. Download an individual theme ZIP or the full collection, `EasyCLIProxyAPI-Themes-v1.0.1.zip`, from [Releases](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest).
+1. Download an individual theme ZIP from [Releases](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest), or directly download the [Full Collection ZIP (EasyCLIProxyAPI-Themes.zip)](https://github.com/Roomen/EasyCLIProxyAPI-Themes/releases/latest/download/EasyCLIProxyAPI-Themes.zip).
 2. In EasyCLIProxyAPI, open **Appearance → Open themes folder**.
 3. Extract the ZIP and place the desired theme folders directly in that directory. Keep the structure `<themes directory>/<theme folder>/theme.json`.
 4. Return to the app, click **Reload**, and select and enable a theme under **Custom themes**.
