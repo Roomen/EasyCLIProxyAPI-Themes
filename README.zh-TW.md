@@ -11,6 +11,8 @@ EasyCLIProxyAPI 自訂主題合集。目前發布版本：**1.0.1**。
 | `macos-light` | 經典 macOS·淺色 / Classic macOS Light | 淺色 |
 | `macos-dark` | 經典 macOS·深色 / Classic macOS Dark | 深色 |
 | `meili-golden-hour` | 梅里·日照金山 / Meili Golden Hour | 深色 |
+| `paw-in-paw-light` | 貓爪相依·暖色 / Paw in Paw Light | 淺色 |
+| `curious-cats-dark` | 雙貓凝望·暗色 / Curious Cats Dark | 深色 |
 
 ## 安裝
 

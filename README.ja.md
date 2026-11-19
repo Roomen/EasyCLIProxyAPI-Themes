@@ -11,6 +11,8 @@ EasyCLIProxyAPI のカスタムテーマ集です。現在のリリースバー�
 | `macos-light` | クラシック macOS・ライト / Classic macOS Light | ライト |
 | `macos-dark` | クラシック macOS・ダーク / Classic macOS Dark | ダーク |
 | `meili-golden-hour` | 梅里・黄金の朝 / Meili Golden Hour | ダーク |
+| `paw-in-paw-light` | 手を取り合う猫・ライト / Paw in Paw Light | ライト |
+| `curious-cats-dark` | 見つめる猫たち・ダーク / Curious Cats Dark | ダーク |
 
 ## インストール
 

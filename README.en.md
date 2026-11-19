@@ -11,6 +11,8 @@ A collection of custom themes for EasyCLIProxyAPI. Current release: **1.0.1**.
 | `macos-light` | Classic macOS Light | Light |
 | `macos-dark` | Classic macOS Dark | Dark |
 | `meili-golden-hour` | Meili Golden Hour | Dark |
+| `paw-in-paw-light` | Paw in Paw Light | Light |
+| `curious-cats-dark` | Curious Cats Dark | Dark |
 
 ## Installation
 

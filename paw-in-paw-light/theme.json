@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "paw-in-paw-light",
+  "name": {
+    "zh-CN": "猫爪相依·暖色",
+    "zh-TW": "貓爪相依·暖色",
+    "en": "Paw in Paw Light",
+    "ja": "手を取り合う猫・ライト"
+  },
+  "description": {
+    "zh-CN": "通透磨砂面板与粉嫩肉垫，温润治愈的木质晨光",
+    "zh-TW": "通透磨砂面板與粉嫩肉墊，溫潤治癒的木質晨光",
+    "en": "Translucent frosted glass and gentle paws for a warm, comforting space",
+    "ja": "透き通るすりガラスとピンクの肉球、穏やかで優しい光"
+  },
+  "appearance": "light",
+  "windowBackground": "#F8F5F0",
+  "windowMaterial": "solid",
+  "backdrop": {
+    "layers": [
+      {
+        "kind": "linear",
+        "angle": 180,
+        "stops": [
+          {
+            "color": "#F8F5F0B3",
+            "at": 0
+          },
+          {
+            "color": "#F8F5F073",
+            "at": 45
+          },
+          {
+            "color": "#F8F5F033",
+            "at": 100
+          }
+        ]
+      },
+      {
+        "kind": "radial",
+        "center": [
+          25,
+          20
+        ],
+        "size": [
+          80,
+          80
+        ],
+        "stops": [
+          {
+            "color": "#FFEADCB3",
+            "at": 0
+          },
+          {
+            "color": "#FFEADC00",
+            "at": 100
+          }
+        ]
+      }
+    ],
+    "sidebar": "#FAF6F0A6",
+    "panel": "#FFFFFFB8",
+    "inset": "#F5EFE680",
+    "hover": "#FFFFFFCC",
+    "imagePosition": [
+      50,
+      60
+    ]
+  },
+  "tokens": {
+    "workspaceBackground": "#F8F5F0",
+    "surface": "#FFFFFF",
+    "softSurface": "#F7F3EC",
+    "hoverBackground": "#EFE9DE",
+    "textPrimary": "#2B2523",
+    "textSecondary": "#5C534E",
+    "textTertiary": "#7C736C",
+    "textMuted": "#9E948C",
+    "border": "#E6DDD266",
+    "borderSubtle": "#E6DDD238",
+    "borderStrong": "#C8BCAD",
+    "borderHover": "#D9657E",
+    "panelShadow": "#3D281714",
+    "accent": "#D9657E",
+    "accentStrong": "#C45069",
+    "accentSoft": "#FDF0F3",
+    "accentContrast": "#FFFFFF",
+    "accentShadow": "#D9657E29",
+    "focusRing": "#E87A90",
+    "primaryButtonBackground": "#D9657E",
+    "primaryButtonHoverBackground": "#C45069",
+    "primaryButtonText": "#FFFFFF",
+    "primaryButtonBorder": "#D9657E00",
+    "primaryButtonHoverBorder": "#C4506900",
+    "controlActiveBackground": "#D9657E",
+    "controlActiveThumb": "#FFFFFF",
+    "controlThumb": "#B5A99B",
+    "sidebarBackground": "#F3EFE8",
+    "sidebarText": "#5C534E",
+    "sidebarTextStrong": "#2B2523",
+    "sidebarTextMuted": "#8C827A",
+    "sidebarBorder": "#E4DDD380",
+    "sidebarHover": "#EAE3D899",
+    "sidebarSelected": "#FFFFFFE6",
+    "sidebarSelectedBorder": "#D9657E4D",
+    "sidebarSelectedShadow": "#3D281712",
+    "popoverBackground": "#FFFFFF",
+    "overlaySoftSurface": "#F7F3EC",
+    "overlayHoverBackground": "#EFE9DE",
+    "scrim": "#231B174D",
+    "radiusSmall": "6px",
+    "radiusMedium": "12px",
+    "radiusLarge": "18px",
+    "radiusFull": "9999px",
+    "controlBorderWidth": "1px",
+    "cardBorderWidth": "1px",
+    "shadowExtraSmall": "0 1px 2px #3D28170F",
+    "shadowSmall": "0 2px 8px #3D281714",
+    "shadowMedium": "0 6px 20px #3D28171A",
+    "shadowLarge": "0 12px 34px #3D281721",
+    "shadowPopover": "0 12px 36px #3D28172E",
+    "shadowDialog": "0 24px 70px #3D28173D",
+    "shadowSpotlight": "0 18px 52px #3D28172E",
+    "windowMaterialWorkspaceOpacity": "72%",
+    "windowMaterialSidebarOpacity": "45%",
+    "meterLow": "#E05263",
+    "meterMedium": "#D97706",
+    "meterHigh": "#10B981"
+  },
+  "assets": {
+    "backdropImage": "assets/backdrop.webp"
+  }
+}

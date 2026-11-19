@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "curious-cats-dark",
+  "name": {
+    "zh-CN": "双猫凝望·暗色",
+    "zh-TW": "雙貓凝望·暗色",
+    "en": "Curious Cats Dark",
+    "ja": "見つめる猫たち・ダーク"
+  },
+  "description": {
+    "zh-CN": "深蓝暗夜下两只猫咪的澄澈眼眸与温情守候",
+    "zh-TW": "深藍暗夜下兩隻貓咪的澄澈眼眸與溫情守候",
+    "en": "Deep midnight tones with vivid crystal-blue cat eyes watching over you",
+    "ja": "夜空に映える澄んだ瞳、静かに寄り添う二匹"
+  },
+  "appearance": "dark",
+  "windowBackground": "#0F141D",
+  "windowMaterial": "solid",
+  "backdrop": {
+    "layers": [
+      {
+        "kind": "linear",
+        "angle": 180,
+        "stops": [
+          {
+            "color": "#0F141DE6",
+            "at": 0
+          },
+          {
+            "color": "#0F141D99",
+            "at": 40
+          },
+          {
+            "color": "#0B111AA6",
+            "at": 100
+          }
+        ]
+      },
+      {
+        "kind": "radial",
+        "center": [
+          50,
+          45
+        ],
+        "size": [
+          80,
+          70
+        ],
+        "stops": [
+          {
+            "color": "#38BDF826",
+            "at": 0
+          },
+          {
+            "color": "#38BDF800",
+            "at": 100
+          }
+        ]
+      }
+    ],
+    "sidebar": "#0B1018D6",
+    "panel": "#131A26D9",
+    "inset": "#182232E6",
+    "hover": "#223046E6",
+    "imagePosition": [
+      50,
+      48
+    ]
+  },
+  "tokens": {
+    "workspaceBackground": "#0F141D",
+    "surface": "#141B26",
+    "softSurface": "#1B2433",
+    "hoverBackground": "#243044",
+    "textPrimary": "#F1F5F9",
+    "textSecondary": "#CBD5E1",
+    "textTertiary": "#94A3B8",
+    "textMuted": "#64748B",
+    "border": "#33415559",
+    "borderSubtle": "#33415533",
+    "borderStrong": "#475569",
+    "borderHover": "#38BDF8",
+    "panelShadow": "#0307124D",
+    "accent": "#38BDF8",
+    "accentStrong": "#7DD3FC",
+    "accentSoft": "#0C2B45",
+    "accentContrast": "#082032",
+    "accentShadow": "#38BDF82E",
+    "focusRing": "#38BDF8",
+    "primaryButtonBackground": "#38BDF8",
+    "primaryButtonHoverBackground": "#7DD3FC",
+    "primaryButtonText": "#082032",
+    "primaryButtonBorder": "#38BDF800",
+    "primaryButtonHoverBorder": "#7DD3FC00",
+    "controlActiveBackground": "#38BDF8",
+    "controlActiveThumb": "#082032",
+    "controlThumb": "#64748B",
+    "sidebarBackground": "#0C1119",
+    "sidebarText": "#94A3B8",
+    "sidebarTextStrong": "#F1F5F9",
+    "sidebarTextMuted": "#64748B",
+    "sidebarBorder": "#33415540",
+    "sidebarHover": "#1B243380",
+    "sidebarSelected": "#38BDF81F",
+    "sidebarSelectedBorder": "#38BDF847",
+    "sidebarSelectedShadow": "#03071233",
+    "popoverBackground": "#141B26",
+    "overlaySoftSurface": "#1B2433",
+    "overlayHoverBackground": "#243044",
+    "scrim": "#02061799",
+    "radiusSmall": "6px",
+    "radiusMedium": "12px",
+    "radiusLarge": "18px",
+    "radiusFull": "9999px",
+    "controlBorderWidth": "1px",
+    "cardBorderWidth": "1px",
+    "shadowExtraSmall": "0 1px 2px #02061424",
+    "shadowSmall": "0 2px 8px #02061433",
+    "shadowMedium": "0 6px 20px #02061440",
+    "shadowLarge": "0 12px 36px #02061452",
+    "shadowPopover": "0 14px 40px #02061473",
+    "shadowDialog": "0 24px 72px #02061499",
+    "shadowSpotlight": "0 16px 48px #02061466",
+    "windowMaterialWorkspaceOpacity": "78%",
+    "windowMaterialSidebarOpacity": "62%",
+    "meterLow": "#F87171",
+    "meterMedium": "#FBBF24",
+    "meterHigh": "#34D399"
+  },
+  "assets": {
+    "backdropImage": "assets/backdrop.webp"
+  }
+}
